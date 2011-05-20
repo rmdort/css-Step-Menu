@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+  <title>ck</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+</head>
+<style type="text/css">
+  *{margin:0; padding:0; font-family:Arial, Helvetica; text-decoration:none;}
+  
+  #Nav{margin:20px;}
+  #Nav li{list-style:none; display:inline;}
+  #Nav a{list-style:none; float:left; background:url(arrows.png) top right no-repeat; height:51px; padding:0 50px; line-height:48px; margin-right:-32px; position:relative; z-index: 2; color:#fff;}  
+  #Nav .active a{background-position:100% -51px; z-index:1;}
+  #Nav .active+li>a{z-index: 0;}
+</style>
+<body>
+  
+  <ul id="Nav">
+    <li><a href="#">Step 1</a></li>
+    <li><a href="#">Step 2</a></li>
+    <li class="active"><a href="#">Step 3</a></li>
+    <li><a href="#">Step 4</a></li>
+  </ul>
+</body>
+</html>
